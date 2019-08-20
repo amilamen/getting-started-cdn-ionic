@@ -1,2 +1,2 @@
-# getting_started_cdn_ionic
+# IONIC CDN TEST
 Test ionic CDN
