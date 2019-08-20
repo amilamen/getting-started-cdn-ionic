@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Getting Started</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/css/ionic.bundle.css"/>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.js"></script>
+</head>
+<body>
+    <ion-app>
+        <ion-content fullscreen>
+            <ion-grid>
+                    <ion-row>
+                        <ion-col size-md="4" offset-md="4">
+                            <ion-card>
+                                <ion-card-content>
+                                    <ion-item>
+                                        <ion-label position="floating">Username</ion-label>
+                                        <ion-input type="text" id="username-input"></ion-input>
+                                    </ion-item>
+
+                                    <ion-item>
+                                        <ion-label position="floating">Password</ion-label>
+                                        <ion-input type="password" id="password-input"></ion-input>
+                                        <ion-icon class="eye-icon" name="eye" slot="end" id="changePasswordIcon"></ion-icon>
+                                    </ion-item>
+                                    
+                                    <div class="ion-margin-vertical" text-center>
+                                        <ion-button id="login-button">
+                                            <ion-icon slot='start' name='log-in'></ion-icon>
+                                            LOGIN
+                                        </ion-button>
+                                    </div>
+                                </ion-card-content>
+                            </ion-card>
+                        </ion-col>
+                    </ion-row>
+                    <ion-row text-center>
+                        <ion-col text-center size-md="4" offset-md="4">
+                            <ion-list text-center id="expense-list">
+                                LOGS
+                            </ion-list>
+                        </ion-col>
+                    </ion-row>
+            </ion-grid>
+        </ion-content>
+        <ion-alert-controller></ion-alert-controller>
+    </ion-app>
+    <script src="./app.js"></script>
+</body>
+</html>

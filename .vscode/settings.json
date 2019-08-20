@@ -1,0 +1,21 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#6ba1ff",
+        "activityBar.foreground": "#fff",
+        "activityBar.inactiveForeground": "#fff",
+        "activityBarBadge.background": "#085beb",
+        "activityBarBadge.foreground": "#fff",
+        "titleBar.activeBackground": "#3880ff",
+        "titleBar.inactiveBackground": "#3880ff99",
+        "titleBar.activeForeground": "#fff",
+        "titleBar.inactiveForeground": "#fff",
+        "statusBar.background": "#3880ff",
+        "statusBarItem.hoverBackground": "#6ba1ff",
+        "statusBar.foreground": "#fff"
+    },
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira code",
+    "markdown.preview.fontSize": 12,
+    "terminal.integrated.fontSize": 13,
+    "debug.console.fontSize": 13
+}
