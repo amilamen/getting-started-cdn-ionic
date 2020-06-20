@@ -1,2 +1,2 @@
 # IONIC CDN TEST
-Test ionic CDN
+Test IONIC Framework CDN
